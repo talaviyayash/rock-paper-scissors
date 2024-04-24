@@ -7,44 +7,44 @@ body {
 }
 
 .choice {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 .choice button {
   text-transform: capitalize;
 }
 
 .choice button {
-  width: 80px;
+  width: 160px;
 }
 
 .container-nextround {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #Choice-Howmany-Round {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #total-round {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #current-round {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #total-round-win {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -53,20 +53,20 @@ body {
   justify-content: center;
 }
 #getValue {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 #table-container {
   display: none;
-  padding-top: 20px;
+  padding-top: 40px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 .next-btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
