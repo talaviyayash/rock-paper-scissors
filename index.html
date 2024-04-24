@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="total-round"></div>
+      <div id="current-round"></div>
+      <div id="pick-your-choice">Pick your Choice</div>
+      <div id="choice" class="choice"></div>
+      <div class="next-btn-container">
+        <button id="next-round" disabled onclick="goToNextRound()">
+          Next round
+        </button>
+      </div>
+      <div id="img-container" style="height: 60px; width: auto"></div>
+      <div class="container-nextround">
+        <button id="restartAllThing" onclick="restartAllThing()">
+          Restart
+        </button>
+      </div>
+    </div>
+
+    <div id="Choice-Howmany-Round">
+      Choose how many round you want to play :-
+      <select name="" id="round-get">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+      </select>
+      <br />
+      <button id="getValue" onclick="getTheRoundFromUser()">
+        Start a game
+      </button>
+    </div>
+    <div id="total-round-win"></div>
+    <div id="table-container">
+      History of game <br />
+      <table border="5" id="table">
+        <tr>
+          <th>Round no.</th>
+          <th>You</th>
+          <th>Opponent</th>
+          <th>Win/Loss/Draw</th>
+        </tr>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
